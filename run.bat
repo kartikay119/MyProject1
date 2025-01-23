@@ -1,0 +1,1 @@
+pytest -v -s PycharmProjects\Python_selenium\TestCases
