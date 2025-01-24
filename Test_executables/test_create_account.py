@@ -14,13 +14,13 @@ def driver():
 @pytest.mark.parametrize("name,title, last_name,email, password, day, month , years",[("Kartikay","Mr","Kar","kartikay119@gmail.com","12345",'1',"1","1999")])
 def test_create(name,title, last_name,email, password, day, month , years,driver):
     r = Testregistration(driver)
-    time.sleep(5)
+    time.sleep(8)
     c= Testregistration1(driver)
-    time.sleep(5)
+    time.sleep(8)
     r.registration1(email)
     time.sleep(8)
     c.creating_account(name,title, last_name, password, day, month , years)
-    time.sleep(5)
+    time.sleep(8)
 
     c.register_button()
     time.sleep(8)

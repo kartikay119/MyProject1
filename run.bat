@@ -1,1 +1,1 @@
-pytest -v -s PycharmProjects\Python_selenium\TestCases
+pytest -v -s Test_executables
