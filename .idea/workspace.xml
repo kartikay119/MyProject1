@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="87516df1-aa0c-49be-9475-dec9da3a9e31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COnfest/password_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/COnfest/password_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_cases/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_cases/create_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_cases/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_cases/registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_executables/test_create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_executables/test_create_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_executables/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_executables/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_executables/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_executables/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,53 +39,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_create_account.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_login.test_login_functionality.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in Test_cases.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in Test_executables.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_create_account.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python.password_checker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.registration.executor&quot;: &quot;Run&quot;,
-    &quot;Python.usernames_pssword_dict.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/project2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests in test_create_account.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.pytest for test_create_account.test_create.executor": "Run",
+    "Python tests.pytest for test_login.test_create.executor": "Run",
+    "Python tests.pytest for test_login.test_login_functionality.executor": "Run",
+    "Python tests.pytest in Test_cases.executor": "Run",
+    "Python tests.pytest in Test_executables.executor": "Run",
+    "Python tests.pytest in test_create_account.py.executor": "Run",
+    "Python tests.pytest in test_login.py.executor": "Run",
+    "Python tests.pytest in test_registration.py.executor": "Run",
+    "Python.create_account.executor": "Run",
+    "Python.password_checker.executor": "Run",
+    "Python.registration.executor": "Run",
+    "Python.usernames_pssword_dict.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/project2",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in Test_executables">
-    <configuration name="pytest in Test_cases" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_registration.py">
+    <configuration name="registration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_cases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_cases&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_cases/registration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in Test_executables" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.test_create" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="project2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,8 +105,8 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_executables&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_create&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_create_account.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in Test_executables" />
-        <item itemvalue="Python tests.pytest in test_create_account.py" />
-        <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in test_registration.py" />
-        <item itemvalue="Python tests.pytest in Test_cases" />
+        <item itemvalue="Python.registration" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python tests.pytest for test_login.test_create" />
+        <item itemvalue="Python tests.pytest in test_create_account.py" />
       </list>
     </recent_temporary>
   </component>
