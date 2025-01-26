@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87516df1-aa0c-49be-9475-dec9da3a9e31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Test_cases/search_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_executables/test_search_box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/COnfest/password_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/COnfest/password_checker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_cases/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_cases/create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_cases/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_cases/registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_executables/test_create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_executables/test_create_account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_executables/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_executables/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_executables/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_executables/test_registration.py" afterDir="false" />
@@ -52,6 +53,8 @@
     "Python tests.pytest in test_create_account.py.executor": "Run",
     "Python tests.pytest in test_login.py.executor": "Run",
     "Python tests.pytest in test_registration.py.executor": "Run",
+    "Python tests.pytest in test_search_box.py.executor": "Run",
+    "Python.Input_box.executor": "Run",
     "Python.create_account.executor": "Run",
     "Python.password_checker.executor": "Run",
     "Python.registration.executor": "Run",
@@ -69,8 +72,8 @@
       <recent name="D:\project2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_registration.py">
-    <configuration name="registration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_search_box.py">
+    <configuration name="search_box" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_cases/registration.py" />
+      <option name="SCRIPT_NAME" value="D:\project2\Test_cases\search_box.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.test_create" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in Test_executables" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="project2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,8 +108,8 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.test_create&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_executables&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_create_account.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -123,23 +126,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_executables/test_create_account.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="project2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_executables" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_executables/test_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -160,13 +146,30 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_search_box.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="project2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_executables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_executables/test_search_box.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_search_box.py" />
         <item itemvalue="Python tests.pytest in test_registration.py" />
-        <item itemvalue="Python.registration" />
-        <item itemvalue="Python tests.pytest in test_login.py" />
-        <item itemvalue="Python tests.pytest for test_login.test_create" />
+        <item itemvalue="Python.search_box" />
         <item itemvalue="Python tests.pytest in test_create_account.py" />
+        <item itemvalue="Python tests.pytest in Test_executables" />
       </list>
     </recent_temporary>
   </component>
