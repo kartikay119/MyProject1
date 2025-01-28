@@ -1,5 +1,6 @@
 # import time
 # from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.select import Select
 #
 #
 # class search_box:
@@ -15,6 +16,8 @@
 #         self.driver.find_element(By.NAME,self.s_button).click()
 #         self.driver.find_element(By.XPATH,self.sort).click()
 #         self.driver.find_element(By.LINK_TEXT,'Printed Summer Dress').click()
-#         self.driver.find_element(By.XPATH,'//*[@id="group_1"]/option[2]').click()
+#         drpdwn = Select(self.driver.find_element(By.XPATH,'//*[@id="group_1"]/option[2]'))
+#         drpdwn.select_by_value('2')
+#
 #     def Add_button(self):
 #         self.driver.find_element(By.NAME,"Submit").click()
